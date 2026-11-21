@@ -1,0 +1,17 @@
+class Mahasiswa:
+    nim = 0
+    nama = ""
+
+mahasiswa1 = Mahasiswa()
+mahasiswa1.nim = 123456
+mahasiswa1.nama = "Okta"
+
+mahasiswa2 = Mahasiswa()
+mahasiswa2.nim = 123457
+mahasiswa2.nama = "Jer"
+
+print(mahasiswa1.nim)
+print(mahasiswa1.nama)
+
+print(mahasiswa2.nim)
+print(mahasiswa2.nama)
