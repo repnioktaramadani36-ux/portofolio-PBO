@@ -1,0 +1,8 @@
+class Mahasiswa:
+    pass
+
+mahasiswa1 = Mahasiswa()
+mahasiswa2 = Mahasiswa()
+
+print(type(mahasiswa1))
+print(type(mahasiswa2))
