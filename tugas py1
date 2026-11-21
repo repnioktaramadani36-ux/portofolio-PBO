@@ -1,0 +1,23 @@
+class Orang:  
+    def __init__(self, nama):       
+          self.nama = nama
+   def perkenalan(self):       
+        print("Halo, nama aku", self.nama)
+
+ken = Orang("Ken")
+okta = Orang("Okta”)
+
+print("=== Berkenalan di Restoran ===") 
+print("Ken dan Okta bertemu di restoran saat sedang makan.”)
+
+print("Ken: Halo, nama aku Ken.")
+print("Okta: Hii Ken, nama aku Okta.")
+
+print("Ken: Apa kabar, Okta?") 
+print("Okta: Kabarku baik, kamu apa kabar?") 
+print("Ken: Kabar aku juga baik.")
+
+print("Okta: Kamu sering makan di restoran ini?") 
+print("Ken: Iya, aku cukup sering makan di sini.") 
+print("Okta: Ohh, begitu. Senang bisa berkenalan denganmu.")
+print("Ken: Aku juga senang berkenalan denganmu.")
