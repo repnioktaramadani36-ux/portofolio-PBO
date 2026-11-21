@@ -1,0 +1,11 @@
+class Mahasiswa:
+    kampus = "Universitas"
+
+    def __init__(self, nama):
+        self.nama = nama
+
+mahasiswa1 = Mahasiswa("Okta")
+mahasiswa2 = Mahasiswa("Jer")
+
+print(mahasiswa1.kampus)
+print(mahasiswa2.kampus)
