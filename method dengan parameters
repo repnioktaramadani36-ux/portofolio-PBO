@@ -1,0 +1,21 @@
+class Mahasiswa:
+    nim = 0
+    nama = ""
+
+    def perkenalan(self):
+        print(f"Halo, nama saya {self.nama}")
+
+    def hello(self, nama):
+        print(f"Halo {nama}, nama saya {self.nama}")
+
+mahasiswa1 = Mahasiswa()
+mahasiswa1.nama = "Okta"
+
+mahasiswa2 = Mahasiswa()
+mahasiswa2.nama = "Jer"
+
+mahasiswa1.perkenalan()
+mahasiswa1.hello("Jer")
+
+mahasiswa2.perkenalan()
+mahasiswa2.hello("Okta")
